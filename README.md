@@ -26,12 +26,17 @@ EOF
 }
 ```
 
-### Module Path Output
+### Module Data Output
 
 ```bash
  dcos_rexray_config = "${module.rexray-json-data-contents.json_dump}"
 ```
 
+### Data Output
+
+```bash
+json_dump = "{\"rexray\": {\"loglevel\": \"info\",\"modules\": {\"default-docker\": {\"disabled\": true},\"default-admin\": {\"host\": \"tcp://127.0.0.1:61003\"}}}}"
+```
 
 # Authors
 
