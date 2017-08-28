@@ -1,0 +1,13 @@
+{
+  "rexray": {
+    "loglevel": "info",
+    "modules": {
+      "default-docker": {
+        "disabled": true
+      },
+      "default-admin": {
+        "host": "tcp://127.0.0.1:61003"
+      }
+    }
+  }
+}
