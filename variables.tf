@@ -1,12 +1,7 @@
 # Variables
-variable "input_json_path" {}
 variable "input_json_data" {}
 
 ## Example Variables
-# variable "input_json_path" {
-#  default = "example_input.json"
-# }
-# 
 # variable "input_json_data" {
 #   type = "string"
 #   default = <<EOF
